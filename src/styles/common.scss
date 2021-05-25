@@ -1,0 +1,27 @@
+.pagination-position {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.select-prepend {
+    width:97px;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    background-color:#F5F7FA;
+    border: 1px solid #DCDFE6;
+    border-right: 0;
+    color: #909399;
+    font-size: 14px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+.select-custom {
+    width: 100%;
+    ::v-deep .el-input__inner {
+        border-top-left-radius:0;
+        border-bottom-left-radius:0
+    }
+}
